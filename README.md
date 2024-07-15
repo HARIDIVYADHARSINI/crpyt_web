@@ -24,15 +24,18 @@ Users can experiment with certificate verification and other hashing techniques.
 
 # Techniques Used:
 # 1. Substitution Techniques
-Caesar Cipher
-Monoalphabetic Cipher
-Polyalphabetic Cipher
-Playfair Cipher
-Hill Cipher
-Homophonic Substitution Cipher
+Caesar Cipher,
+Monoalphabetic Cipher,
+Polyalphabetic Cipher,
+Playfair Cipher,
+Hill Cipher,
+Homophonic Substitution Cipher.
 # 2. Transposition Techniques
-Rail Fence Cipher
-Columnar Transposition Cipher
-Route Cipher
-Double Transposition Cipher
+Rail Fence Cipher,
+Columnar Transposition Cipher,
+Route Cipher,
+Double Transposition Cipher.
+
+
+
                 In this crytography tool website , I tried to include the encrypt techniques as much as I could.
