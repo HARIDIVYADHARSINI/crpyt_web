@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptography Tool</title>
+    <link rel="stylesheet" href="C:\Users\Lenovo\crypt_html\style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cryptography Tool</h1>
+        <textarea id="inputText" placeholder="Enter text here..."></textarea>
+        <div class="select-container">
+            <select id="technique">
+                <optgroup label="Substitution Techniques">
+                    <option value="caesar">Caesar Cipher</option>
+                    <option value="atbash">Atbash Cipher</option>
+                    <option value="vigenere">Vigenère Cipher</option>
+                    <option value="monoalphabetic">Monoalphabetic Cipher</option>
+                    <option value="playfair">Playfair Cipher</option>
+                    <option value="hill">Hill Cipher</option>
+                    <option value="oneTimePad">One-Time Pad</option>
+                </optgroup>
+                <optgroup label="Transposition Techniques">
+                    <option value="railFence">Rail Fence Cipher</option>
+                    <option value="columnar">Columnar Transposition</option>
+                    <option value="scytale">Scytale Cipher</option>
+                    <option value="doubleColumnar">Double Columnar Transposition</option>
+                </optgroup>
+            </select>
+        </div>
+        <input type="text" id="key" placeholder="Key (for applicable ciphers)">
+        <div class="button-container">
+            <button onclick="encrypt()">Encrypt</button>
+            <button onclick="decrypt()">Decrypt</button>
+        </div>
+        <textarea id="outputText" placeholder="Output will appear here..."></textarea>
+    </div>
+    <script src="C:\Users\Lenovo\crypt_html\script.js"></script>
+</body>
+</html>
